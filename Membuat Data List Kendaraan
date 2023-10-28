@@ -1,0 +1,12 @@
+#membuat data list kendaraan
+kendaraan = ["honda beat", "motor", "110cc", "deluxe blue","2roda"]
+print(kendaraan)
+
+#menambahkan harga kendaraan dan tipe kendaraan
+kendaraan.append("16.300 jt") #harga kendaraan
+kendaraan.append("beat") #tipe kendaraan
+print(kendaraan)
+
+#menambahkan merk kendaraan di index 2
+kendaraan.insert(2,"honda")
+print(kendaraan)
